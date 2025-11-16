@@ -15,11 +15,11 @@ void main() async {
   if (kIsWeb) {
     await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: 'AIzaSyC9dpTx8BTpVfcGiUYB50_5bij3N_oepIc',
-        appId: '1:489640197157:web:e521a6f7e41625a7d493cc',
-        messagingSenderId: '489640197157',
-        projectId: 'inistagram-6fb17',
-        storageBucket: 'inistagram-6fb17.appspot.com',
+        apiKey: 'example',
+        appId: '123654',
+        messagingSenderId: '52145263',
+        projectId: 'inistagram',
+        storageBucket: 'inistagram',
       ),
     );
   } else {
